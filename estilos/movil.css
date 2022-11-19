@@ -1,0 +1,242 @@
+@media only screen and (max-width: 400px) {
+    html,
+body {
+
+margin-left:0px ;
+margin-right:0px ;
+margin-top: 5px;
+width: 100%;
+
+}
+hr{
+    width: 100%;
+    
+}
+.logo{
+    width: 75px;
+}
+.logos {
+    width: 20px;
+  
+}
+.Texto-cabecera{
+    font-size: 10px;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color:black
+}
+/*Primera parte de la cabecera  Primera parte de la cabecera  Primera parte de la cabecera  */
+
+.cabeza1 {
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-between;
+}
+.cabeza2 {
+    width: 90%;
+    display: flex;
+    
+    justify-content: space-between;
+}
+.menu{
+    font-size: 12px;
+}
+#buscador{
+width: 160px;
+height: 30px;
+}
+
+#Texto-buscador{
+    position: absolute;
+    padding-top: 8px;
+    padding-left: 30px;
+    font-size: 10px;
+}
+#lupa{
+    position: absolute;
+    width: 20px;
+   padding-top: 10px;
+   padding-left: 10px;
+}
+.OFERTA {
+    width: 380px;
+}
+
+.LogoMarca {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 20px;
+    }
+    
+    .marca1 { grid-area: 1 / 1 / 2 / 2; }
+    .marca2 { grid-area: 1 / 2 / 2 / 3; }
+    .marca3 { grid-area: 1 / 3 / 2 / 4; }
+    .marca4 { grid-area: 2 / 1 / 3 / 2; }
+    .marca5 { grid-area: 2 / 2 / 3 / 3; }
+    .marca6 { grid-area: 2 / 3 / 3 / 4; }
+    .marca7 { grid-area: 3 / 1 / 4 / 2; }
+    .marca8 { grid-area: 3 / 2 / 4 / 3; }
+    .marca9 { grid-area: 3 / 3 / 4 / 4; }
+    .marca10 { grid-area: 4 / 1 / 5 / 2; }
+    .marca11 { grid-area: 4 / 2 / 5 / 3; }
+    .marca12 { grid-area: 4 / 3 / 5 / 4; }
+    .marca13 { grid-area: 5 / 1 / 6 / 2; }
+    .marca14 { grid-area: 5 / 2 / 6 / 3; }
+    .marca15 { grid-area: 5 / 3 / 6 / 4; }
+    .marca16 { grid-area: 6 / 1 / 7 / 2; }
+    .marca17 { grid-area: 6 / 2 / 7 / 3; }
+    .marca18 { grid-area: 6 / 3 / 7 / 4; }
+    .marcas{
+        width: 75px;;
+    }
+    #marca-manabu{
+        display: flex;
+        width: 390px;
+        flex-direction: column;
+       height: 1200px;
+      }
+    
+        .pfila{
+    display: flex;
+    height: 400px;
+    width: 160px;
+    align-self: center;
+    
+        }
+        .sfila{
+            display: flex;
+            height: 350px;
+            width: 160px;
+            align-self: center;
+           
+                }
+                .tfila{
+                    display: flex;
+                    height: 450px;
+                    width: 160px;
+                    align-self: center;
+                        }
+
+    .chocolate{
+        background-image: url(../images/productos/chocolatemini.png);
+        background-repeat: no-repeat, repeat;
+        width: 100%;
+        height: 92px;
+    }
+    .cepillo{
+        background-image: url(../images/productos/cepillomini.png);
+        background-repeat: no-repeat, repeat;
+        width: 100%;
+        height: 92px;
+    }
+    .bollo{
+        background-image: url(../images/productos/bollomini.png);
+        background-repeat: no-repeat, repeat;
+        width: 100%;
+        height: 113px;
+     
+    }
+    .empresa1{
+        background-image: url(../images/empresa/Promo_Chocomini.png);
+        background-repeat: no-repeat, repeat;
+        width: 100%;
+        height: 225px;
+    }
+    .empresa2{
+        background-image: url(../images/empresa/Promo_Cepillomini.png);
+        background-repeat: no-repeat, repeat;
+        margin-top: 0px;
+        width: 100%;
+        height: 200px;
+    }
+    .empresa3{
+        background-image: url(../images/empresa/Promo_Bollomini.png);
+        background-repeat: no-repeat, repeat;
+        width: 100%;
+        height: 225px;
+    }
+
+    .circulo1 {
+
+        border-radius: 100px 100px 0px 0;
+        background-color: #D3C538;
+        color: white;
+       padding-top: 30px;
+        font-size: 20px;
+        text-align: center;
+        width:112px;
+        height: 75px;
+    }
+    
+    .cuadrado {
+
+        background-color: #6C4141;
+        color: white;
+        padding-top: 0px;
+        
+         width:112px;
+         height: 25px;
+    }
+  
+    .circulo2 {
+    
+        border-radius: 100px 100px 0px 0;
+        background-color: #D3C538;
+        color: white;
+       padding-top: 30px;
+        font-size: 20px;
+        text-align: center;
+        width:112px;
+        height: 75px;
+    }
+    .cuadrado p{
+        font-size: 11px;
+        padding-top: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-bottom: 50px;
+       }
+
+    #pie {
+        margin-top: 20px;
+        width: 100%;
+      }
+      #rayas {
+        width: 20%;
+        margin-right: 5px;
+      }
+      .raya_amarilla {
+        background-color: #d3c538;
+        width: 15%;
+        height: 75px;
+        margin-left: 7px;
+        margin-right: 7px;
+        float: left;
+      }
+      .raya_marron {
+        background-color: #6c4141;
+        width: 15%;
+        height: 75px;
+    
+        float: left;
+      }
+      
+      .Texto-pie{
+        font-size: 10px;
+      }
+      .redes {
+        
+        float: left;
+        width: 30%;
+        margin-right: 5px;
+      }
+      .atcliente {
+        float: left;
+        width: 40%;
+      }
+
+}
